@@ -1,0 +1,65 @@
+body{
+    width: 1200px;
+    margin: auto;
+    background: url(imagenes/Ca.png);
+    background-size: cover;  
+     align-items: center;
+    justify-content: center;
+   
+}
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+nav li{
+    display:inline-block;
+    padding: 5px;
+}
+.menusuperior{
+    background-color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+.menuinferior{
+    background-color: black;
+    font-size:x-large;
+    text-align: center;
+}
+
+.png{
+    background-color:black;
+    text-align:left;
+}
+.ppp{
+    width: 1100px;
+    margin: 0;
+    padding: 0;
+    background-color: black;   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+.parra{
+    color: white;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.contenedor{
+  display:flex;
+  flex-direction: column;
+  min-width: 100%;
+}
+.contenedor > div {
+  flex:1;
+  display:flex;
+}
+.fila0 { background:rgba(0,0,0,0.3); }
+.fila1 { background:rgba(255,0,0,0.3); }
+.palabras{
+    text-align: center;
+}
