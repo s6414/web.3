@@ -1,0 +1,29 @@
+body {
+    background-color:lightsalmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-galeria {
+    display: grid;
+    place-items: center;
+    width: 1500px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    max-width: 400px;
+}
+
+
